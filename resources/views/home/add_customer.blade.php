@@ -132,11 +132,11 @@
                               @enderror
                             </div>
                             <div class="form-group">
-                              <label for="alamat">Alamat</label>
-                              <textarea class="form-control @error('alamat') is-invalid @enderror" rows="3"
-                                id="alamat" name="alamat"
-                                placeholder="Enter Alamat">{{ old('alamat') }}</textarea>
-                              @error('alamat')
+                              <label for="address">Address</label>
+                              <textarea class="form-control @error('address') is-invalid @enderror" rows="3"
+                                id="address" name="address"
+                                placeholder="Enter Address">{{ old('address') }}</textarea>
+                              @error('address')
                               <div class="text-danger">{{ $message }}</div>
                               @enderror
                             </div>
